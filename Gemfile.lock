@@ -1,16 +1,3 @@
-GIT
-  remote: https://github.com/mjc-gh/virgil.git
-  revision: 906afcb1dc3e1e12769a2d4c0be56b57715c2ab2
-  specs:
-    virgil (0.1.0)
-      bubbles (~> 0.1)
-      bubbletea (~> 0.1)
-      bubblezone (~> 0.1)
-      lipgloss (~> 0.2)
-      ougai (~> 2.0)
-      ruby_llm (~> 1.5)
-      thor (~> 1.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -98,28 +85,6 @@ GEM
       msgpack (~> 1.2)
     brakeman (8.0.5)
       racc
-    bubbles (0.1.1)
-      bubbletea
-      harmonica
-      lipgloss
-    bubbletea (0.1.4-aarch64-linux-gnu)
-      lipgloss (~> 0.1)
-    bubbletea (0.1.4-aarch64-linux-musl)
-      lipgloss (~> 0.1)
-    bubbletea (0.1.4-arm-linux-gnu)
-      lipgloss (~> 0.1)
-    bubbletea (0.1.4-arm-linux-musl)
-      lipgloss (~> 0.1)
-    bubbletea (0.1.4-x86_64-linux-gnu)
-      lipgloss (~> 0.1)
-    bubbletea (0.1.4-x86_64-linux-musl)
-      lipgloss (~> 0.1)
-    bubblezone (0.1.2-aarch64-linux-gnu)
-    bubblezone (0.1.2-aarch64-linux-musl)
-    bubblezone (0.1.2-arm-linux-gnu)
-    bubblezone (0.1.2-arm-linux-musl)
-    bubblezone (0.1.2-x86_64-linux-gnu)
-    bubblezone (0.1.2-x86_64-linux-musl)
     builder (3.3.0)
     bundler-audit (0.9.3)
       bundler (>= 1.2.0)
@@ -156,7 +121,6 @@ GEM
       faraday (~> 2.0)
     globalid (1.3.0)
       activesupport (>= 6.1)
-    harmonica (0.1.1)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.2.3)
@@ -172,12 +136,6 @@ GEM
     json (2.19.9)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
-    lipgloss (0.2.2-aarch64-linux-gnu)
-    lipgloss (0.2.2-aarch64-linux-musl)
-    lipgloss (0.2.2-arm-linux-gnu)
-    lipgloss (0.2.2-arm-linux-musl)
-    lipgloss (0.2.2-x86_64-linux-gnu)
-    lipgloss (0.2.2-x86_64-linux-musl)
     logger (1.7.0)
     loofah (2.25.1)
       crass (~> 1.0.2)
@@ -220,13 +178,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.19.3-x86_64-linux-musl)
       racc (~> 1.4)
-    oj (3.17.3)
-      bigdecimal (>= 3.0)
-      ostruct (>= 0.2)
-    ostruct (0.6.3)
-    ougai (2.1.0)
-      logger (~> 1.5)
-      oj (~> 3.17)
     parallel (2.1.0)
     parser (3.3.11.1)
       ast (~> 2.4.1)
@@ -407,7 +358,6 @@ DEPENDENCIES
   stimulus-rails
   thruster
   turbo-rails
-  virgil!
   web-console
 
 CHECKSUMS
@@ -430,19 +380,6 @@ CHECKSUMS
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
   bootsnap (1.24.6) sha256=c60bab88c70332290f0a2636a288f675299eb4f804a02a3c085b42eca9da164a
   brakeman (8.0.5) sha256=03735f9690d3fd4b32d66aacbf0a6d15a84266bdd06b32c05c8ecc8f6021d2be
-  bubbles (0.1.1) sha256=ac16a9adef1cd4d51d7246ea6cda1a745a56321cc21a49e150e7446d62797d05
-  bubbletea (0.1.4-aarch64-linux-gnu) sha256=9a1200916572dd5518da5d6a66bb136274fa577ecaa67c59dbecd34b872b48fc
-  bubbletea (0.1.4-aarch64-linux-musl) sha256=9e9e1ea40a6e57b4280a7e1e02673831a8f54b8a38f730dcb6597ce35272e176
-  bubbletea (0.1.4-arm-linux-gnu) sha256=6dc9601376848dfe2337685cefc3fc9420d2d7f44c04e74079766006f0dfae6b
-  bubbletea (0.1.4-arm-linux-musl) sha256=954a4ac9a27faa48077394b6c040115106044dbb1d6231089983d83bff306cae
-  bubbletea (0.1.4-x86_64-linux-gnu) sha256=c1a06df5828c3af8ed664bf08591eba4bcb16aa44c58f8d21f7e2a01c2dea885
-  bubbletea (0.1.4-x86_64-linux-musl) sha256=b8972ffc21590b83442c1b88d83539c412dea964866560ab1dd263c531fac989
-  bubblezone (0.1.2-aarch64-linux-gnu) sha256=da261d6486b41d634f986fb864e077c84c01045d71d643e3587b6d820f9bc331
-  bubblezone (0.1.2-aarch64-linux-musl) sha256=7b20a58dab5a1f1025839fc191e9d6bca142e3685b3763eac075bb231450cd28
-  bubblezone (0.1.2-arm-linux-gnu) sha256=0f9fd12dc9617ce6ea95c7f00915685f1efadf8ca131f49c154fba0dacac9d1c
-  bubblezone (0.1.2-arm-linux-musl) sha256=d319ace4ccaff795fdfd11e0a4820dc0d9b716f7f7bacd2778d4d507fff95170
-  bubblezone (0.1.2-x86_64-linux-gnu) sha256=b3ba8547f794397587cbdefe3638d354030a8736f074f3a2061caeed560fe0c7
-  bubblezone (0.1.2-x86_64-linux-musl) sha256=72b4319336663b3bcdf09e2cf4ef9ea266479155af35c26c8e934c06c7343b6f
   builder (3.3.0) sha256=497918d2f9dca528fdca4b88d84e4ef4387256d984b8154e9d5d3fe5a9c8835f
   bundler-audit (0.9.3) sha256=81c8766c71e47d0d28a0f98c7eed028539f21a6ea3cd8f685eb6f42333c9b4e9
   capybara (3.40.0) sha256=42dba720578ea1ca65fd7a41d163dd368502c191804558f6e0f71b391054aeef
@@ -460,7 +397,6 @@ CHECKSUMS
   faraday-net_http (3.4.4) sha256=0e78af151747ed1b00f33e25973b4bc220d7f16c00c39676817c8b12331eb588
   faraday-retry (2.4.0) sha256=7b79c48fb7e56526faf247b12d94a680071ff40c9fda7cf1ec1549439ad11ebe
   globalid (1.3.0) sha256=05c639ad6eb4594522a0b07983022f04aa7254626ab69445a0e493aa3786ff11
-  harmonica (0.1.1) sha256=587da9bc55ffb6387c0ffb9243bb3b03d57d1ebaf29a17282d3912a3443f397a
   i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
   importmap-rails (2.2.3) sha256=7101be2a4dc97cf1558fb8f573a718404c5f6bcfe94f304bf1f39e444feeb16a
   io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
@@ -468,12 +404,6 @@ CHECKSUMS
   json (2.19.9) sha256=9b9025b7cdddafa38d316eca0b2358488e42d417045c1b90d216a9fefe46b79a
   language_server-protocol (3.17.0.5) sha256=fd1e39a51a28bf3eec959379985a72e296e9f9acfce46f6a79d31ca8760803cc
   lint_roller (1.1.0) sha256=2c0c845b632a7d172cb849cc90c1bce937a28c5c8ccccb50dfd46a485003cc87
-  lipgloss (0.2.2-aarch64-linux-gnu) sha256=cb2e5db7fc14d85ec919223b5d16ad6d7be0ced096fec60e9f6e253d1c8718cd
-  lipgloss (0.2.2-aarch64-linux-musl) sha256=e9c445531db8aa85efceeab73f09530dc53ed8f5b61aa78ab7fe2d6afb179b30
-  lipgloss (0.2.2-arm-linux-gnu) sha256=e3f7424f430dd746f6d00bb587192e54f3fdd90a7fac3447da42b23d432952e8
-  lipgloss (0.2.2-arm-linux-musl) sha256=16f76a7a161d5b7ed083167619760ab658bfc4f2c0bd4eecd518e05ad11c3f46
-  lipgloss (0.2.2-x86_64-linux-gnu) sha256=99b26dfc4eaa2bf2dfd9823f0894a06ef0b8f7f773db70ae8905d1c5d9d663ad
-  lipgloss (0.2.2-x86_64-linux-musl) sha256=a05ebd4d16a441bbe657fafb269d0f9e6d89a1124b3288264efedc427b007703
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   loofah (2.25.1) sha256=d436c73dbd0c1147b16c4a41db097942d217303e1f7728704b37e4df9f6d2e04
   mail (2.9.0) sha256=6fa6673ecd71c60c2d996260f9ee3dd387d4673b8169b502134659ece6d34941
@@ -495,9 +425,6 @@ CHECKSUMS
   nokogiri (1.19.3-arm-linux-musl) sha256=9ce1cb6346bb9c67b1550eb537aa183ead91e4b6eadb2f36ade02d8dd2a79fb6
   nokogiri (1.19.3-x86_64-linux-gnu) sha256=2f5078620fe12e83669b5b17311b32532a8153d02eee7ad06948b926d6080976
   nokogiri (1.19.3-x86_64-linux-musl) sha256=248c906d2166eca5efb56d52fdee5f9a1f51d69a72e2b64fdac647b4ce39ea3f
-  oj (3.17.3) sha256=ebe3967b0bb7ac4f206561d0d9ac8875b9973f778600d7b61b5c355662a707ed
-  ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
-  ougai (2.1.0) sha256=02b2ea858f09a18c2c605c186a8f913597a5e42d4990b8d135d9ec307d0e95cb
   parallel (2.1.0) sha256=b35258865c2e31134c5ecb708beaaf6772adf9d5efae28e93e99260877b09356
   parser (3.3.11.1) sha256=d17ace7aabe3e72c3cc94043714be27cc6f852f104d81aa284c2281aecc65d54
   pp (0.6.3) sha256=2951d514450b93ccfeb1df7d021cae0da16e0a7f95ee1e2273719669d0ab9df6
@@ -553,7 +480,6 @@ CHECKSUMS
   unicode-emoji (4.2.0) sha256=519e69150f75652e40bf736106cfbc8f0f73aa3fb6a65afe62fefa7f80b0f80f
   uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
   useragent (0.16.11) sha256=700e6413ad4bb954bb63547fa098dddf7b0ebe75b40cc6f93b8d54255b173844
-  virgil (0.1.0)
   web-console (4.3.0) sha256=e13b71301cdfc2093f155b5aa3a622db80b4672d1f2f713119cc7ec7ac6a6da4
   websocket (1.2.11) sha256=b7e7a74e2410b5e85c25858b26b3322f29161e300935f70a0e0d3c35e0462737
   websocket-driver (0.8.1) sha256=5ab238238ce230e5d4b262d2be39624c867914eab99171dc4952b58b577c2d96

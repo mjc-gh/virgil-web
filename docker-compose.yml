@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  virgo-web:
+    image: virgo-web:latest
+    ports:
+      - "8888:8888"
+    environment:
+      RAILS_ENV: production
+      RAILS_LOG_TO_STDOUT: "true"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
